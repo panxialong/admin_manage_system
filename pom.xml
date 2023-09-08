@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <!--springboot的版本管理器 以后公司中开发就可以使用parent去继承公司自定义的父maven项目
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.2.RELEASE</version>
+        <relativePath/>
+    </parent>-->
+    <groupId>com.tulingxueyuan.springcloud</groupId>
+    <artifactId>springcloudalibaba</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>springcloudalibaba</name>
+    <description>springcloudalibaba</description>
+    <modules>
+        <module>Order</module>
+        <module>stock</module>
+        <module>Order-nacos</module>
+        <module>stock-nacos</module>
+        <module>Order-ribbon</module>
+        <module>order-loadbalancer</module>
+        <module>order-openfeign</module>
+        <module>product-nacos</module>
+        <module>config-nacos</module>
+        <module>order-sentinel</module>
+        <module>order-openfeign-sentinel</module>
+        <module>seata</module>
+        <module>gateway</module>
+    </modules>
+    <packaging>pom</packaging>
+    <properties>
+        <java.version>13</java.version>
+    </properties>
+    <dependencies>
+        <!-- springboot基本场景启动-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <!-- springboot测试场景启动-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-core</artifactId>
+            <version>1.8.0</version>
+        </dependency>
+    </dependencies>
+
+    <dependencyManagement>
+
+        <dependencies>
+            <!--Spring Cloud alibaba的版本管理，通过dependency完成继承-->
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>2.2.0.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!--springboot的版本管理器 -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-parent</artifactId>
+                <version>2.2.2.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!--springcloud的版本管理器 -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Hoxton.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <!-- springboot打包插件-->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+
+
+        </plugins>
+    </build>
+
+</project>

@@ -1,0 +1,6 @@
+C:\Users\92057\IdeaProjects\springcloudalibaba\gateway\src\main\java\com\tulingxueyuan\config\GatewayConfig.java
+C:\Users\92057\IdeaProjects\springcloudalibaba\gateway\src\main\java\com\tulingxueyuan\filters\LogFilter.java
+C:\Users\92057\IdeaProjects\springcloudalibaba\gateway\src\main\java\com\tulingxueyuan\predicates\CheckAuthRoutePredicateFactory.java
+C:\Users\92057\IdeaProjects\springcloudalibaba\gateway\src\main\java\com\tulingxueyuan\filters\CheckAuthGatewayFilterFactory.java
+C:\Users\92057\IdeaProjects\springcloudalibaba\gateway\src\main\java\com\tulingxueyuan\GatewayApplication.java
+C:\Users\92057\IdeaProjects\springcloudalibaba\gateway\src\main\java\com\tulingxueyuan\config\CorsConfig.java
