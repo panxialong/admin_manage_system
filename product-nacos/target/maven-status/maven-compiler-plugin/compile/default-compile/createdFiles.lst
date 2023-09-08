@@ -1,0 +1,5 @@
+com\tulingxueyuan\product\entity\ApiResponse.class
+com\tulingxueyuan\product\entity\SupplierMobileHistoryAdminRes.class
+com\tulingxueyuan\product\entity\Result.class
+com\tulingxueyuan\product\controller\ProductController.class
+com\tulingxueyuan\product\ProductApplication.class

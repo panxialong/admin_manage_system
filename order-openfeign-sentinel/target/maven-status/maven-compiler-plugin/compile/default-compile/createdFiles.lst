@@ -1,0 +1,6 @@
+com\tulingxueyuan\order\OrderApplication.class
+com\tulingxueyuan\order\config\FeignConfig.class
+com\tulingxueyuan\order\feign\StockFeignService.class
+com\tulingxueyuan\order\feign\StockFeignServiceFallback.class
+com\tulingxueyuan\order\intercptor\feign\CustomFeignInterceptor.class
+com\tulingxueyuan\order\controller\OrderController.class

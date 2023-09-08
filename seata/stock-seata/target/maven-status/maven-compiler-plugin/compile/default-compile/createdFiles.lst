@@ -1,0 +1,7 @@
+com\tulingxueyuan\stock\service\StockService.class
+com\tulingxueyuan\stock\pojo\Stock.class
+com\tulingxueyuan\stock\mapper\StockMapper.class
+com\tulingxueyuan\stock\StockSeataApplication.class
+com\tulingxueyuan\stock\config\MyBatisConfig.class
+com\tulingxueyuan\stock\service\impl\StockServiceImpl.class
+com\tulingxueyuan\stock\controller\StockController.class

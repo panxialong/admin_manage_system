@@ -1,0 +1,4 @@
+com\tulingxueyuan\order\OrderApplication.class
+com\tulingxueyuan\ribbon\rule\CustomRule.class
+com\tulingxueyuan\ribbon\RibbonRandomRuleConfig.class
+com\tulingxueyuan\order\controller\OrderController.class

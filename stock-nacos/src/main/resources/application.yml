@@ -1,0 +1,15 @@
+server:
+  port: 8021
+spring:
+  application:
+    name: stock-service
+  cloud:
+    nacos:
+      #server-addr: 192.168.10.11:8847
+      server-addr: 192.168.0.107:8848
+      discovery:
+        username: nacos
+        password: nacos
+        namespace: public
+        ephemeral: false  #永久实力 哪怕服务停了也不会删除实例
+        #cluster-name: XUSHU
