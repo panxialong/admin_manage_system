@@ -13,6 +13,7 @@ com\tulingxueyuan\order\enums\GlobalErrorCodeConstants.class
 com\tulingxueyuan\order\common\HttpRequestCore$InnerLog.class
 com\tulingxueyuan\order\controller\SupplierDetailController.class
 com\tulingxueyuan\order\intercptor\feign\CustomFeignInterceptor.class
+com\tulingxueyuan\order\base\ResponseData.class
 com\tulingxueyuan\order\common\WebFrameworkUtils.class
 com\tulingxueyuan\order\exception\ServiceErrorCodeRange.class
 com\tulingxueyuan\order\core\IntArrayValuable.class
@@ -25,3 +26,4 @@ com\tulingxueyuan\order\common\HttpRequestConfig.class
 com\tulingxueyuan\order\entity\CommonResult.class
 com\tulingxueyuan\order\base\IApiResponseCode.class
 com\tulingxueyuan\order\feign\StockFeignService.class
+com\tulingxueyuan\order\enums\OrderBusinessStatus.class
